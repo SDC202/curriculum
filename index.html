@@ -52,27 +52,27 @@
         <section id="educacion">
             <h2>Educación</h2>
             <table style="border-collapse: collapse;">
-    <tr>
-        <th>Grado</th>
-        <th>Institución</th>
-        <th>Año</th>
-    </tr>
-    <tr>
-        <td>Licenciatura en Informática</td>
-        <td>Universidad de Guayaquil</td>
-        <td>2016-2020</td>
-    </tr>
-    <tr>
-        <td>Certificación en Marketing Digital</td>
-        <td>Google Academy</td>
-        <td>2023</td>
-    </tr>
-    <tr>
-        <td>Diplomado en Gestión de Proyectos</td>
-        <td>Universidad Católica</td>
-        <td>2022</td>
-    </tr>
-</table>
+                <tr>
+                    <th>Grado</th>
+                    <th>Institución</th>
+                    <th>Año</th>
+                </tr>
+                <tr>
+                    <td>Licenciatura en Informática</td>
+                    <td>Universidad de Guayaquil</td>
+                    <td>2016-2020</td>
+                </tr>
+                <tr>
+                    <td>Certificación en Marketing Digital</td>
+                    <td>Google Academy</td>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <td>Diplomado en Gestión de Proyectos</td>
+                    <td>Universidad Católica</td>
+                    <td>2022</td>
+                </tr>
+            </table>
             <!-- Información de educación -->
         </section>
         <section id="habilidades">
@@ -82,6 +82,29 @@
         <section id="contacto">
             <h2>Contacto</h2>
             <!-- Información de contacto -->
+             <form action="#" method="post">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+
+                <label for="motivo">Motivo de contacto:</label><br>
+                <select id="motivo" name="motivo" required>
+                    <option value="">Seleccione una opción</option>
+                    <option value="consulta">Consulta</option>
+                    <option value="trabajo">Trabajo</option>
+                    <option value="amistad">Amistad</option>
+                </select><br><br>
+
+                <label for="asunto">Asunto:</label><br>
+                <input type="text" id="asunto" name="asunto" required><br><br>
+
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
     <footer>
