@@ -73,18 +73,11 @@ nav >ul {
     gap: 30px;
 }
 
-section > form {
 
-    /* Activa el modelo de diseño basado en cuadrícula */
-    display: grid;
-
-    /* Define una sola columna que ocupa todo el ancho disponible del contenedor */
-    grid-template-columns: 1fr 1fr;
-
-    /* Establece un espacio vertical uniforme de 1rem entre filas */
-    row-gap: 0.5rem;
-
-    /* Establece un espacio horizontal uniforme de 1rem entre columnas */
-    column-gap: 1rem;
-
+#photo {
+    width: 280px;         /* Smaller width */
+    height: auto;
+    display: block;
+    margin: 0 0 1rem auto; /* Align right with some bottom margin */
+    float: right;          /* Float image to the right */
 }
