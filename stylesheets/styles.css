@@ -18,6 +18,25 @@ h1 {
   font-weight: 600;
   font-style: normal;
 }
+
+h2 {
+
+    /* Alineación del texto */
+    text-align: center;
+
+    /* Grosor de la fuente negrita */
+    font-weight: bold;
+
+    /* Color del texto en hexadecimal */
+    color: #078080;
+
+    /* Espacio entre letras */
+    letter-spacing: 0.1rem;
+  font-family: "Rubik Mono One", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
 #photo {
 
     /* Ancho del elemento */
@@ -86,7 +105,9 @@ nav >ul {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Mako", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     letter-spacing: 1px;
 }
 
